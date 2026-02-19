@@ -2,3 +2,5 @@
 
 Projeto Final da matéria de Banco de Dados buscando praticar os conhecimentos no decorrer do período 
 Habilidades como modelagem de dados Conhecimento sobre DataBases relacionais Utilização de comandos de consultas 
+
+O povoamento foi realizado com ajuda de uma IA para facilitar e diminuir o tempo de trabalho 
