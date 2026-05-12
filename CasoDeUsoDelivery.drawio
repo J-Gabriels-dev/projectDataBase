@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram id="qAbHFAqZDMFfCfir7dWz" name="Página-1">
-    <mxGraphModel dx="956" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1099" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Caso de Uso: Realizar Pedido — App de Delivery" vertex="1">
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Caso de Uso: Realizar Pedido App de Delivery" vertex="1">
           <mxGeometry height="40" width="680" x="230" y="20" as="geometry" />
         </mxCell>
         <mxCell id="system" parent="1" style="swimlane;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;align=center;" value="Sistema de Delivery" vertex="1">
