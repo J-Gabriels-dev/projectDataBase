@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="qAbHFAqZDMFfCfir7dWz" name="Página-1">
-    <mxGraphModel dx="1099" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="679" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,7 +48,7 @@
         <mxCell id="uc11" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Restaurante Recusa Pedido" vertex="1">
           <mxGeometry height="60" width="200" x="440" y="390" as="geometry" />
         </mxCell>
-        <mxCell id="inc7" edge="1" parent="system" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;entryX=0.474;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc1" value="&lt;&lt;include&gt;&gt;">
+        <mxCell id="inc7" edge="1" parent="system" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;entryX=0.474;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc1" value="&lt;&lt;Extends&gt;&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="315" y="157" />
@@ -113,14 +113,18 @@
             <mxPoint x="669.5562130177552" y="107.08426035503074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mca99CAX_wR3cSmmiuFj-2" edge="1" parent="1" source="actorCliente" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uc8">
+        <mxCell id="1z-30nEYRHB6XogEYop--3" edge="1" parent="1" source="actorCliente" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="uc8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="270" />
-              <mxPoint x="380" y="90" />
-              <mxPoint x="775" y="90" />
+              <mxPoint x="410" y="20" />
             </Array>
-            <mxPoint x="690" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1z-30nEYRHB6XogEYop--4" edge="1" parent="1" source="actorCliente" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="uc1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="110" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="actorCliente" parent="1" style="shape=umlActor;fillColor=#000000;strokeColor=#000000;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="Cliente" vertex="1">
@@ -131,23 +135,6 @@
         </mxCell>
         <mxCell id="actorEntregador" parent="1" style="shape=umlActor;fillColor=#000000;strokeColor=#000000;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="Entregador" vertex="1">
           <mxGeometry height="60" width="40" x="980" y="630" as="geometry" />
-        </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="actorCliente" style="edgeStyle=orthogonalEdgeStyle;" target="uc1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="380" y="270" />
-              <mxPoint x="380" y="130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="actorCliente" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="uc2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="120" y="270" />
-              <mxPoint x="489" y="270" />
-            </Array>
-            <mxPoint x="400" y="260" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="e5" edge="1" parent="1" source="actorRestaurante" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc5">
           <mxGeometry relative="1" as="geometry" />
@@ -194,19 +181,6 @@
               <mxPoint x="890" y="491" />
             </Array>
             <mxPoint x="890" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="actorCliente" style="edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="130" y="270" />
-              <mxPoint x="260" y="270" />
-              <mxPoint x="260" y="330" />
-              <mxPoint x="420" y="330" />
-              <mxPoint x="420" y="350" />
-            </Array>
-            <mxPoint x="270" y="270" as="sourcePoint" />
-            <mxPoint x="450" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
