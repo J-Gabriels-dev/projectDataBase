@@ -5,7 +5,9 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="system" parent="1" style="swimlane;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;align=center;" value="Sistema de Delivery" vertex="1">
-          <mxGeometry height="770" width="750" x="230" y="50" as="geometry" />
+          <mxGeometry height="770" width="750" x="230" y="50" as="geometry">
+            <mxRectangle height="30" width="160" x="230" y="50" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uc1" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Selecionar Produtos" vertex="1">
           <mxGeometry height="60" width="200" x="220" y="60" as="geometry" />
@@ -35,7 +37,7 @@
           <mxGeometry height="60" width="200" x="460" y="260" as="geometry" />
         </mxCell>
         <mxCell id="uc11" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Restaurante Recusa Pedido" vertex="1">
-          <mxGeometry height="60" width="200" x="440" y="390" as="geometry" />
+          <mxGeometry height="60" width="200" x="400" y="420" as="geometry" />
         </mxCell>
         <mxCell id="inc1" edge="1" parent="system" source="uc2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;" target="uc3" value="&lt;&lt;include&gt;&gt;">
           <mxGeometry relative="1" as="geometry">
@@ -69,16 +71,15 @@
             <mxPoint x="340" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ext2" edge="1" parent="system" source="uc11" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="uc5" value="">
+        <mxCell id="ext2" edge="1" parent="system" source="uc5" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="uc11" value="">
           <mxGeometry relative="1" x="-0.3332" y="40" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="480" y="470" />
-              <mxPoint x="170" y="470" />
-              <mxPoint x="170" y="560" />
-              <mxPoint x="139" y="560" />
+              <mxPoint x="210" y="480" />
+              <mxPoint x="340" y="480" />
+              <mxPoint x="340" y="450" />
             </Array>
-            <mxPoint x="110" y="560" as="targetPoint" />
+            <mxPoint x="190" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5EuMTPWXoqGHuQBKxhEd-1" connectable="0" parent="ext2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" vertex="1">
@@ -162,16 +163,6 @@
         <mxCell id="5EuMTPWXoqGHuQBKxhEd-3" connectable="0" parent="inc5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4546" y="-1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5EuMTPWXoqGHuQBKxhEd-2" edge="1" parent="1" source="uc7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="uc11" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="830" y="710" />
-              <mxPoint x="890" y="710" />
-              <mxPoint x="890" y="491" />
-            </Array>
-            <mxPoint x="890" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
