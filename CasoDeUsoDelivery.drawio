@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram id="qAbHFAqZDMFfCfir7dWz" name="Página-1">
-    <mxGraphModel dx="1208" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="system" parent="1" style="swimlane;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;align=center;" value="Sistema de Delivery" vertex="1">
-          <mxGeometry height="770" width="750" x="230" y="50" as="geometry">
+          <mxGeometry height="770" width="750" x="231" y="50" as="geometry">
             <mxRectangle height="30" width="160" x="230" y="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -135,8 +135,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="688" y="730" />
-              <mxPoint x="688" y="630" />
-              <mxPoint x="718" y="630" />
+              <mxPoint x="688" y="640" />
+              <mxPoint x="720" y="640" />
+              <mxPoint x="720" y="610" />
             </Array>
             <mxPoint x="640" y="670" as="targetPoint" />
           </mxGeometry>
@@ -144,7 +145,7 @@
         <mxCell id="e7" edge="1" parent="1" source="actorEntregador" style="edgeStyle=orthogonalEdgeStyle;" target="uc7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="790" y="680" />
+              <mxPoint x="820" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
