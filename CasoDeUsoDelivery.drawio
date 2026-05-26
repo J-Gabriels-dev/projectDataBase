@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net">
   <diagram id="qAbHFAqZDMFfCfir7dWz" name="Página-1">
-    <mxGraphModel dx="1773" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Caso de Uso: Realizar Pedido App de Delivery" vertex="1">
-          <mxGeometry height="40" width="680" x="230" y="20" as="geometry" />
-        </mxCell>
         <mxCell id="system" parent="1" style="swimlane;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;align=center;" value="Sistema de Delivery" vertex="1">
           <mxGeometry height="770" width="750" x="230" y="50" as="geometry" />
         </mxCell>
@@ -14,22 +11,22 @@
           <mxGeometry height="60" width="200" x="220" y="50" as="geometry" />
         </mxCell>
         <mxCell id="uc2" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Confirmar Pedido" vertex="1">
-          <mxGeometry height="60" width="200" x="250" y="190" as="geometry" />
+          <mxGeometry height="60" width="200" x="240" y="180" as="geometry" />
         </mxCell>
         <mxCell id="uc3" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Realizar Pagamento" vertex="1">
-          <mxGeometry height="60" width="200" x="230" y="270" as="geometry" />
+          <mxGeometry height="60" width="200" x="80" y="270" as="geometry" />
         </mxCell>
         <mxCell id="uc4" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Enviar Pedido ao Restaurante" vertex="1">
-          <mxGeometry height="60" width="200" x="40" y="344" as="geometry" />
+          <mxGeometry height="60" width="200" x="100" y="390" as="geometry" />
         </mxCell>
         <mxCell id="uc5" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Aceitar / Recusar Pedido" vertex="1">
-          <mxGeometry height="60" width="200" x="40" y="480" as="geometry" />
+          <mxGeometry height="60" width="200" x="110" y="580" as="geometry" />
         </mxCell>
         <mxCell id="5EuMTPWXoqGHuQBKxhEd-5" edge="1" parent="system" source="uc6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uc11" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="500" y="470" />
-              <mxPoint x="540" y="470" />
+              <mxPoint x="560" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -66,6 +63,7 @@
           <mxGeometry relative="1" x="0.0419" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
+              <mxPoint x="240" y="370" />
               <mxPoint x="670" y="370" />
               <mxPoint x="670" y="190" />
             </Array>
@@ -79,13 +77,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ext2" edge="1" parent="system" source="uc11" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;entryX=0.65;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc5" value="">
+        <mxCell id="ext2" edge="1" parent="system" source="uc11" style="edgeStyle=orthogonalEdgeStyle;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="uc5" value="">
           <mxGeometry relative="1" x="-0.3332" y="40" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="170" y="450" />
+              <mxPoint x="480" y="470" />
+              <mxPoint x="170" y="470" />
+              <mxPoint x="170" y="560" />
+              <mxPoint x="139" y="560" />
             </Array>
-            <mxPoint x="170" y="460" as="targetPoint" />
+            <mxPoint x="110" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5EuMTPWXoqGHuQBKxhEd-1" connectable="0" parent="ext2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" vertex="1">
@@ -103,6 +104,12 @@
             </Array>
             <mxPoint x="639.9999999999998" y="521.9599999999999" as="sourcePoint" />
             <mxPoint x="669.5562130177552" y="107.08426035503074" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1z-30nEYRHB6XogEYop--9" edge="1" parent="system" source="uc1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc2" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="290" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1z-30nEYRHB6XogEYop--3" edge="1" parent="1" source="actorCliente" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="uc8">
@@ -126,7 +133,7 @@
           <mxGeometry height="60" width="40" x="570" y="700" as="geometry" />
         </mxCell>
         <mxCell id="actorEntregador" parent="1" style="shape=umlActor;fillColor=#000000;strokeColor=#000000;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="Entregador" vertex="1">
-          <mxGeometry height="60" width="40" x="980" y="630" as="geometry" />
+          <mxGeometry height="60" width="40" x="1010" y="630" as="geometry" />
         </mxCell>
         <mxCell id="e5" edge="1" parent="1" source="actorRestaurante" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc5">
           <mxGeometry relative="1" as="geometry" />
