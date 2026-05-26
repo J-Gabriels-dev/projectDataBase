@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="qAbHFAqZDMFfCfir7dWz" name="Página-1">
-    <mxGraphModel dx="1207" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry height="770" width="750" x="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="uc1" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Selecionar Produtos" vertex="1">
-          <mxGeometry height="60" width="200" x="220" y="50" as="geometry" />
+          <mxGeometry height="60" width="200" x="220" y="60" as="geometry" />
         </mxCell>
         <mxCell id="uc2" parent="system" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Confirmar Pedido" vertex="1">
           <mxGeometry height="60" width="200" x="240" y="180" as="geometry" />
@@ -106,10 +106,10 @@
             <mxPoint x="669.5562130177552" y="107.08426035503074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1z-30nEYRHB6XogEYop--9" edge="1" parent="system" source="uc1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc2" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;">
+        <mxCell id="1z-30nEYRHB6XogEYop--9" edge="1" parent="system" source="uc2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.437;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.537;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc1" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="130" y="130" as="sourcePoint" />
-            <mxPoint x="290" y="130" as="targetPoint" />
+            <mxPoint x="230" y="140" as="sourcePoint" />
+            <mxPoint x="330" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1z-30nEYRHB6XogEYop--3" edge="1" parent="1" source="actorCliente" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="uc8">
